@@ -1,8 +1,40 @@
 .header {
   background-color: rgb(36, 41, 46);
   color: white;
-  padding: 4px;
+  padding: 1px;
   width: 100%;
   margin: 0;
   text-align: center;
+}
+
+.main-content {
+  width: 60%;
+  margin: 50px 20%;
+  margin-top: 50px;
+}
+
+.form-search input{
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+.tool-card {
+  border: 3px solid #000000;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+.tool-card h3 {
+  font-weight: 300;
+}
+
+.tool-card button span {
+  font-weight: 900;
+  height: 10px;
+}
+
+.tool-card div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
